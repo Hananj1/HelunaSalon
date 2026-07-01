@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELUNA | Contact Us</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <span class="brand-mark">L&H</span>
+            <span>
+            <strong>HELUNA</strong>
+            <small>Beauty Salon</small>
+            </span>
+        </a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contact-us.html" class="active">Contact Us</a>
+                        <a href="Appointments.html">My Appointments</a>
+
+        </nav>
+        
+        <div class="header-actions">
+                <a class="btn btn--small" href="services.html">Book Appointment</a>
+        </div>
+        </header>
+
+    <main class="section-wrap page-space contact-grid">
+        <aside class="oval-frame contact-image"><img src="../media/salon.png" alt="Luxury salon interior"></aside>
+        <section><p class="eyebrow">We would love to hear from you</p><h1>Contact Us</h1>
+        <form class="form-panel" id="contactForm" action="#" method="post">
+    <div class="two-cols">
+        <label>First Name<input type="text" name="firstName" id="fname" maxlength="30" required></label>
+        <label>Last Name<input type="text" name="lastName" id="lname" maxlength="30" required></label>
+    </div>
+    
+    <div class="two-cols">
+        <label>Gender<select name="gender" id="gender" required>
+            <option value="">Choose</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select></label>
+        <label>Mobile<input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}" required></label>
+    </div>
+    
+    <div class="two-cols">
+        <label>Date of Birth<input type="date" name="birthDate" id="dob" required></label>
+        <label>Email<input type="email" name="email" id="email" required></label>
+    </div>
+    
+    <label>Preferred Language
+        <select name="language" id="language" required> 
+        <option value="" disabled selected>Choose</option>
+        <option value= "Arabic"> Arabic </option>
+        <option value= "English"> English </option>
+        <option value= "French"> French </option>
+    </select>
+</label>
+    
+    <label>Message<textarea name="message" id="message" required></textarea></label>
+    
+    <button class="btn" type="submit">Send Message</button>
+    <p class="form-message" id="contactMessage"></p>
+</form>
+        </section>
+    </main>
+    <footer class="site-footer"><p>&copy; 2026 HELUNA Beauty Salon.</p></footer>
+    
+    <script src="../js/main.js"></script>
+    <script src="../js/contact-handler.js"></script>
+</body>
+</html>

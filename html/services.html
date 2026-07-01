@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELUNA Beauty Salon | Services</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <a class="logo" href="index.html">
+            <span class="brand-mark">L&H</span>
+            <span><strong>HELUNA</strong><small>Beauty Salon</small></span>
+        </a>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="Appointments.html">My Appointments</a>
+        </nav>
+
+        <div class="header-actions">
+            <a class="btn btn--small" href="#bookingPanel">Book Appointment</a>
+        </div>
+    </header>
+
+    <main class="services-page">
+        <section class="services-hero section-wrap">
+            <p class="eyebrow">Premium Beauty Services</p>
+            <h1>Choose Your Experience</h1>
+
+            <div class="service-tabs">
+                <button class="tab active" data-filter="all">All</button>
+                <button class="tab" data-filter="hair"> Hair</button>
+                <button class="tab" data-filter="nails"> Nails</button>
+                <button class="tab" data-filter="skin"> Skin</button>
+                <button class="tab" data-filter="spa">Spa</button>
+                <button class="tab" data-filter="makeup"> Makeup</button>
+                <button class="tab" data-filter="packages"> Packages</button>
+                
+            </div>
+            <button class="gift-btn" id="openGiftForm" type="button">
+             ✦ Gift a Package ✦
+            </button>
+        </section>
+
+        <section class="services-layout section-wrap">
+            <div class="services-catalog">
+                <div class="service-grid" >
+                <div class="section-heading" data-category="hair">
+                    <h2>HAIR SERVICES</h2>
+                </div>
+                    <!-- HAIR -->
+                    <article class="service-box" >
+                        <img src="../media/Hair.png" alt="Hair styling service">
+                        <div class="service-box__content">
+                            <h3>Hair Styling</h3>
+                            <p>Elegant waves, sleek looks, or volume styling for any occasion.</p>
+                            <strong>150 - 300 ⃁</strong>
+                            <button class="book-service" data-name="Hair Styling" data-price="150 - 300 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/blow-dry.jpg" alt="Blow dry service">
+                        <div class="service-box__content">
+                            <h3>Blow Dry</h3>
+                            <p>Soft, smooth, or bouncy blowout with a polished finish.</p>
+                            <br>
+                            <strong>120 - 200 ⃁</strong>
+                            <button class="book-service" data-name="Blow Dry" data-price="120 - 200 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/hair-coloring.jpg" alt="Hair coloring service">
+                        <div class="service-box__content">
+                            <h3>Hair Coloring</h3>
+                            <p>Premium color transformation using salon-grade products.</p>
+                            <br>
+                            <strong>400 - 900 ⃁</strong>
+                            <button class="book-service" data-name="Hair Coloring" data-price="400 - 900 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/ombre.jpg" alt="Balayage and ombre service">
+                        <div class="service-box__content">
+                            <h3>Balayage / Ombre</h3>
+                            <p>Soft dimensional color with natural luxury movement.</p>
+                            <strong>600 - 1200 ⃁</strong>
+                            <button class="book-service" data-name="Balayage / Ombre" data-price="600 - 1200 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="hair">
+    <img src="../media/haircut.jpg" alt="Haircut service">
+    <div class="service-box__content">
+        <h3>Haircut</h3>
+        <p>Precision haircut tailored to your face shape with a clean, polished finish.</p>
+        <strong>120 - 250 ⃁</strong>
+        <button class="book-service"
+            data-name="Haircut"
+            data-price="120 - 250 ⃁">
+            Book
+        </button>
+    </div>
+</article>
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/hair-treatment.jpg" alt="Hair treatment service">
+                        <div class="service-box__content">
+                            <h3>Hair Treatment</h3>
+                            <p>Deep repair mask for dry, damaged, or color-treated hair.</p>
+                            <strong>250 - 600 ⃁</strong>
+                            <button class="book-service" data-name="Hair Treatment" data-price="250 - 600 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/hair-spa.jpg" alt="Hair spa service">
+                        <div class="service-box__content">
+                            <h3>Hair Spa</h3>
+                            <p>Relaxing scalp and hair ritual for softness and hydration.</p>
+                            <strong>200 - 400 ⃁</strong>
+                            <button class="book-service" data-name="Hair Spa" data-price="200 - 400 ⃁">Book</button>
+                        </div>
+                    </article>
+<article class="service-box" data-category="hair">
+    <img src="../media/Curly.jpeg" alt="Curly hair styling">
+    <div class="service-box__content">
+        <h3>Curly Styling</h3>
+        <p>Defined, bouncy curls styled with techniques that enhance your natural texture and volume.</p>
+        <strong>150 - 300 ⃁</strong>
+        <button class="book-service"
+            data-name="Curly Styling"
+            data-price="150 - 300 ⃁">
+            Book
+        </button>
+    </div>
+</article>
+                    <article class="service-box" data-category="hair">
+                        <img src="../media/bridal.jpg" alt="Bridal hair updo service">
+                        <div class="service-box__content">
+                            <h3>Bridal Updo</h3>
+                            <p>Luxury bridal hairstyle with elegant structure and lasting hold.</p>
+                            <strong>500 - 1000 ⃁</strong>
+                            <button class="book-service" data-name="Bridal Updo" data-price="500 - 1000 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <!-- NAILS -->
+                    <div class="section-heading" data-category="nails">
+                    <h2>NAILS SERVICES</h2>
+                    </div>
+                    <article class="service-box" data-category="nails">
+                        <img src="../media/Classic-Manicure.jpeg" alt="Classic manicure service">
+                        <div class="service-box__content">
+                            <h3>Classic Manicure</h3>
+                            <p>Nail shaping, cuticle care, and clean polish application.</p>
+                            <strong>120 ⃁</strong>
+                            <button class="book-service" data-name="Classic Manicure" data-price="120 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="nails">
+                        <img src="../media/Gel-Polish.webp" alt="Gel polish service">
+                        <div class="service-box__content">
+                            <h3>Gel Polish</h3>
+                            <p>Glossy, long-lasting color with a premium salon finish.</p>
+                            <strong>180 ⃁</strong>
+                            <button class="book-service" data-name="Gel Polish" data-price="180 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="nails">
+                        <img src="../media/GEL.jpg" alt="Nail extensions service">
+                        <div class="service-box__content">
+                            <h3>Nail Extensions</h3>
+                            <p>Custom length and shape for a refined luxury nail look.</p>
+                            <strong>350 - 600 ⃁</strong>
+                            <button class="book-service" data-name="Nail Extensions" data-price="350 - 600 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="nails">
+                        <img src="../media/Nail-Art.jpg" alt="Nail art service">
+                        <div class="service-box__content">
+                            <h3>Nail Art</h3>
+                            <p>Minimal, glam, or custom nail designs with fine details.</p>
+                            <strong>80 - 200 ⃁</strong>
+                            <button class="book-service" data-name="Nail Art" data-price="80 - 200 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="nails">
+                        <img src="../media/pedicure.jpg" alt="Luxury pedicure service">
+                        <div class="service-box__content">
+                            <h3>Luxury Pedicure</h3>
+                            <p>Foot soak, exfoliation, massage, shaping, and polish.</p>
+                            <strong>200 ⃁</strong>
+                            <button class="book-service" data-name="Luxury Pedicure" data-price="200 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <!-- SKIN -->
+                    <div class="section-heading" data-category="skin">
+                    <h2>SKIN SERVICES</h2>
+                    </div>
+                    <article class="service-box" data-category="skin">
+                        <img src="../media/cleansing-facial.jpg" alt="Deep cleansing facial">
+                        <div class="service-box__content">
+                            <h3>Deep Cleansing Facial</h3>
+                            <p>Purifies pores and refreshes tired skin for a clean glow.</p>
+                            <strong>250 ⃁</strong>
+                            <button class="book-service" data-name="Deep Cleansing Facial" data-price="250 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="skin">
+                        <img src="../media/hydrating-facial.jpg" alt="Hydrating facial">
+                        <div class="service-box__content">
+                            <h3>Hydrating Facial</h3>
+                            <p>Moisture-rich facial for soft, smooth, radiant skin.</p>
+                            <strong>300 ⃁</strong>
+                            <button class="book-service" data-name="Hydrating Facial" data-price="300 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="skin">
+                        <img src="../media/anti-aging.jpg" alt="Anti aging facial">
+                        <div class="service-box__content">
+                            <h3>Anti-Aging Facial</h3>
+                            <p>Firming treatment to improve glow, texture, and smoothness.</p>
+                            <strong>400 ⃁</strong>
+                            <button class="book-service" data-name="Anti-Aging Facial" data-price="400 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="skin">
+                        <img src="../media/gold-facial.jpg" alt="Gold facial">
+                        <div class="service-box__content">
+                            <h3>Gold Facial</h3>
+                            <p>Premium glow facial for a bright and luxurious finish.</p>
+                            <strong>500 ⃁</strong>
+                            <button class="book-service" data-name="Gold Facial" data-price="500 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <!-- SPA -->
+                    <div class="section-heading" data-category="spa" >
+                    <h2>SPA Services</h2>
+                    </div>
+                    <article class="service-box" data-category="spa" >
+                        <img src="../media/massage2.jpg" alt="Full body massage">
+                        <div class="service-box__content">
+                            <h3>Full Body Massage</h3>
+                            <p>Relaxing massage designed to release stress and tension.</p>
+                            <strong>350 ⃁</strong>
+                            <button class="book-service" data-name="Full Body Massage" data-price="350 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="spa">
+                        <img src="../media/aromatherapy.jpg" alt="Aromatherapy massage">
+                        <div class="service-box__content">
+                            <h3>Aromatherapy Massage</h3>
+                            <p>Calming essential oils with a soft luxury spa experience.</p>
+                            <strong>400 ⃁</strong>
+                            <button class="book-service" data-name="Aromatherapy Massage" data-price="400 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="spa">
+                        <img src="../media/hot-stone.jpg" alt="Hot stone massage">
+                        <div class="service-box__content">
+                            <h3>Hot Stone Massage</h3>
+                            <p>Warm stones and gentle pressure for deep relaxation.</p>
+                            <strong>450 ⃁</strong>
+                            <button class="book-service" data-name="Hot Stone Massage" data-price="450 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="spa">
+                        <img src="../media/moroccan.jpg" alt="Moroccan bath">
+                        <div class="service-box__content">
+                            <h3>Moroccan Bath</h3>
+                            <p>Traditional cleansing ritual with exfoliation and softness.</p>
+                            <strong>300 ⃁</strong>
+                            <button class="book-service" data-name="Moroccan Bath" data-price="300 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="spa">
+                        <img src="../media/scrub.jpg" alt="Body scrub">
+                        <div class="service-box__content">
+                            <h3>Body Scrub</h3>
+                            <p>Gentle exfoliation for smooth, polished, glowing skin.</p>
+                            <strong>250 ⃁</strong>
+                            <button class="book-service" data-name="Body Scrub" data-price="250 ⃁">Book</button>
+                        </div>
+                    </article>
+
+                    <!-- MAKEUP -->
+<div class="section-heading" data-category="makeup">
+    <h2>Makeup Services</h2>
+</div>
+
+<article class="service-box" data-category="makeup" >
+    <img src="../media/softglam.jpg" alt = "Softglam Makeup">
+    <div class="service-box__content">
+        <h3>Soft Glam</h3>
+        <p>Natural glowing makeup with soft tones and radiant finish.</p>
+        <strong>300 - 500 ⃁</strong>
+        <button class="book-service"
+            data-name="Soft Glam"
+            data-price="300 - 500 ⃁">Book</button>
+    </div>
+</article>
+
+<article class="service-box" data-category="makeup">
+    <img src="../media/smokey.jpg" alt = "Smokey Makeup">
+    <div class="service-box__content">
+        <h3>Smokey Makeup</h3>
+        <p>Bold eye look with deep blended shades and dramatic finish.</p>
+        <strong>400 - 700 ⃁</strong>
+        <button class="book-service"
+            data-name="Smokey Makeup"
+            data-price="400 - 700 ⃁">Book</button>
+    </div>
+</article>
+
+<article class="service-box" data-category="makeup">
+    <img src="../media/matte.jpg" alt = "Matte Makeup">
+    <div class="service-box__content">
+        <h3>Matte Makeup</h3>
+        <p>Flawless matte skin with long-lasting full coverage.</p>
+        <strong>350 - 600 ⃁</strong>
+        <button class="book-service"
+            data-name="Matte Makeup"
+            data-price="350 - 600 ⃁">Book</button>
+    </div>
+</article>
+
+<article class="service-box" data-category="makeup">
+    <img src="../media/bridal-makeup.jpg" alt="Bridal Makeup">
+    <div class="service-box__content">
+        <h3>Bridal Makeup</h3>
+        <p>Luxury full-face bridal look designed for long wear.</p>
+        <strong>800 - 1500 ⃁</strong>
+        <button class="book-service"
+            data-name="Bridal Makeup"
+            data-price="800 - 1500 ⃁">Book</button>
+    </div>
+</article>
+                    <!-- PACKAGES -->
+
+<div class="section-heading" data-category="packages">
+    <h2>PACKAGES</h2>
+</div>
+                    <article class="service-box" data-category="packages" >
+                        <img src="../media/glow.jpg" alt="Glow package">
+                        <div class="service-box__content">
+                            <h3>Glow Package</h3>
+                            <p>Facial, manicure, and blow dry for a complete glow-up.</p>
+                            <strong>800 ⃁</strong>
+                            <button class="book-service" data-name="Glow Package" data-price="800 SAR">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="packages" >
+                        <img src="../media/massage2.jpg" alt="Relax day package">
+                        <div class="service-box__content">
+                            <h3>Relax Day Package</h3>
+                            <p>Massage, Moroccan bath, and hydrating facial.</p>
+                            <strong>900 ⃁</strong>
+                            <button class="book-service" data-name="Relax Day Package" data-price="900 SAR">Book</button>
+                        </div>
+                    </article>
+
+                    <article class="service-box" data-category="packages">
+                        <img src="../media/bridal-package.jpg" alt="Bridal package">
+                        <div class="service-box__content">
+                            <h3>Bridal Package</h3>
+                            <p>Complete beauty preparation for the wedding day.</p>
+                            <strong>1500 - 3000 ⃁</strong>
+                            <button class="book-service" data-name="Bridal Package" data-price="1500 - 3000 SAR">Book</button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+<!--Services Booking Form-->
+<aside class="booking-panel" id="bookingPanel">
+    <div class="booking-header">
+        <h2>Your Booking</h2>
+    </div>
+
+<div class="selected-service">
+    <p>Selected Services</p>
+    <input type="hidden" id="serviceCheck" name="serviceCheck" required>
+    <ul id="selectedServicesList" class="selected-services-list">
+        <li class="empty">No services selected yet</li>
+    </ul>
+</div>
+
+    
+<form id="bookingForm">
+    <input type="hidden" id="editIndex" value="-1">
+
+    <label>
+        Choose Date
+        <input type="date" id="bookDate" required>
+    </label>
+
+    <label>
+        Choose Time
+        <input type="time" id="bookTime" required>
+    </label>
+
+    <label>
+        Full Name
+        <input type="text" id="fullName" required maxlength="40">
+    </label>
+
+    <label>
+        Phone Number
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="05XXXXXXXX">
+    </label>
+
+    <label>
+        Email Address
+        <input type="email" id="email" required>
+    </label>
+
+    <label>
+        Notes
+        <textarea id="notes" maxlength="200" placeholder="Optional"></textarea>
+    </label>
+    <button class="btn" type="submit" id="submitBtn">Confirm Booking</button>
+    <p class="form-message" id="bookingMessage"></p>
+    <button class="btn booking-link" onclick = "window.location.href='../html/Appointments.html'">View My Appointments</button>
+</form>
+
+    <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;">
+</aside>
+
+        </section>
+    </main>
+
+    <div class="gift-overlay" id="giftOverlay">
+    <div class="gift-modal">
+        <button class="gift-close" id="closeGiftForm" type="button">×</button>
+
+        <p class="eyebrow">A Beauty Gift</p>
+        <h2>Gift Someone a Package</h2>
+        <p class="gift-intro">Send a luxury beauty experience to someone special.</p>
+
+        <form id="giftForm">
+            <label>
+                From
+                <input type="text" id="giftFrom" name="giftFrom" placeholder="Your name" required>
+            </label>
+
+            <label>
+                To
+                <input type="text" id="giftTo" name="giftTo" placeholder="Recipient name" required>
+            </label>
+
+            <label>
+            Recipient Phone
+            <input type="text" id="recipientPhone" name="recipientPhone" placeholder="05xxxxxxxx">
+            </label>
+
+            <label>
+                Choose Package
+                <select id="giftPackage" name="giftPackage" required>
+                    <option value="">Select a package</option>
+                    <option value="Glow Package">Glow Package</option>
+                    <option value="Relax Day Package">Relax Day Package</option>
+                    <option value="Bridal Package">Bridal Package</option>
+                </select>
+            </label>
+
+            <label>
+                Message
+                <textarea id="giftMessage" name="giftMessage" placeholder="Write a sweet message..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send Gift Request</button>
+            <p class="form-message" id="giftMessageStatus"></p>
+        </form>
+    </div>
+</div>
+<!-- في أسفل ملف services.html -->
+<script src="../js/main.js"></script>
+<script src="../js/gift.js"></script>
+<script src="../js/booking-handler.js"></script>
+<script src="../js/gift-handler.js"></script>
+</body>
+</html>

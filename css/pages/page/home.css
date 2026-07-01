@@ -1,0 +1,47 @@
+.hero {
+    min-height: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 64px;
+    position: relative;
+}
+
+.hero p:not(.eyebrow) {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 460px;
+}
+
+.oval-frame {
+    border-radius: 45% 55% 50% 45%;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: var(--shadow);
+    padding: 0;
+    border: 14px solid var(--blush);
+}
+
+.oval-frame img {
+    width: 100%;
+    aspect-ratio: 1.25 / 1;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: -30px;
+    padding-bottom: 70px;
+}
+
+.service-card {
+    text-align: center;
+    background-color: #f2d8d0;
+    border: 1px solid var(--line);
+    border-radius: 999px 999px 42px 42px;
+    padding: 18px 18px 22px;
+    box-shadow: var(--shadow);
+}

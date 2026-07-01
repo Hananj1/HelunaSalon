@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELUNA Beauty Salon | My Appointments</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header class="site-header">
+
+    <a class="logo" href="index.html" aria-label="HELUNA home">
+            <span class="brand-mark">L&H</span>
+            <span><strong>HELUNA</strong><small>Beauty Salon</small></span>
+        </a>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="Appointments.html" class="active">My Appointments</a>
+        
+    </nav>
+      <a class="btn btn--small" href="services.html">Book Appointment</a>
+
+</header>
+    <main class="section-wrap page-space">
+        <section>
+            <h1>My Appointments</h1>
+            <p>Please enter the mobile number you used for booking to view your appointments.</p>
+            
+            <!-- قسم البحث (Search UI) -->
+            <div class="search-container" style="margin: 30px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                <input type="text" id="userPhoneSearch" placeholder="05xxxxxxxx" 
+                       style="padding: 12px; border-radius: 8px; border: 1px solid #ddd; width: 250px; font-size: 16px;">
+                <button id="searchBtn" class="btn btn--small" style="cursor: pointer;">View Appointments</button>
+            </div>
+
+            <!-- مكان ظهور النتائج (Grid) -->
+            <div id="appointmentsList" class="appointments-grid">
+                <p class="empty-msg" style="text-align: center; color: #888;">Enter your number to start searching...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 HELUNA Beauty Salon.</p>
+    </footer>
+
+    <!-- الربط مع ملفات الجافا سكريبت -->
+    <script src="../js/main.js"></script>
+    <script src="../js/appointments-display.js"></script>
+</body>
+</html>
